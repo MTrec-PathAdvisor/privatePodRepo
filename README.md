@@ -42,7 +42,9 @@ for CLASS.m
          //do sth with history value
       }
     }
-    //history is the return last location from engine, consist of a location(CGPoint, x,y coordinate from our map), a level(NSString, floor id of your position) and a timestamp(long long, time when the location is calculated, please refer to NSDate timeIntervalSince1970)
+    //history is the last returned location from engine, consist of a location(CGPoint, x,y coordinate from our map),
+    //a level(NSString, floor id of your position) and a timestamp(long long, time when the location is calculated,
+    //please refer to NSDate timeIntervalSince1970)
 
 3. start engine
   `[[LocationEngine engine] turnOnPosition];`

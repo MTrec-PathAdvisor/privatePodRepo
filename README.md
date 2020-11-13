@@ -21,7 +21,7 @@ for CLASS.h
     #import <LBSOfflineSDK/LBSOfflineSDK.h>
 2. configure delegate
     put <LocationEngineDelegate> in your class interface 
-    e.g. : @interface Wherami: NSObject<LocationEngineDelegate>
+    e.g. : @interface Wherami: NSObject <LocationEngineDelegate>
 
 for CLASS.m
 1. initialization of engine
